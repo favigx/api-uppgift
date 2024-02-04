@@ -14,6 +14,7 @@ import com.api.api.service.PokemonService;
 
 @RestController
 @CrossOrigin(origins = "http://127.0.0.1:5500/")
+
 public class PokemonController {
 
     private PokemonService pokemonService;
